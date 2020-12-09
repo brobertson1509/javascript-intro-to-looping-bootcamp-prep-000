@@ -1,4 +1,4 @@
-let array = [];
+let array = [${i}];
 
 function forLoop(array){
   for (let i=0; i<25, i++) {
@@ -14,7 +14,6 @@ function incrementVariable() {
   return i;
 
 function doWhileLoop(num) {
-
 do {
   console.log("I run once regardless.");
 } while (incrementVariable() < ${num});
