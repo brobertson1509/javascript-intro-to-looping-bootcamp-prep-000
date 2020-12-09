@@ -17,12 +17,16 @@ while (n>0){
 return "done";
 }
 
-function maybeTrue() {
-  return Math.random() >= 0.5
+function incrementVariable() {
+  i = i + 1;
+  return i
 }
-function doWhileLoop(array){
+
+function doWhileLoop(num) {
 do {
-  array.push("I run once regardless.")
-} while (array.length>0 && maybeTrue())
-return array
+  if(num === 0) {
+  console.log("I run once regardless.");
+} else if (num === 10){
+  console.log("I run once regardless.")
+} while (incrementVariable() < num);
 }
