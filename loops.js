@@ -19,8 +19,8 @@ return "done";
 
 function doWhileLoop(num) {
   function incrementVariable() {
-    num = i + num;
-    return i;
+    num = 1 + num;
+    return num;
   }
 do {
   if(num === 0) {
