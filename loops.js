@@ -18,10 +18,10 @@ return "done";
 }
 
 function doWhileLoop(num) {
-  let num = 0;
+  let i = 0;
   function incrementVariable() {
-  num = num + 1;
-  return num;
+  i = i + 1;
+  return i;
 }
 
   do {
