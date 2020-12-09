@@ -10,7 +10,6 @@ if(i=1) {console.log("I am 1 strange loop.")
 function whileLoop(n){
 while (n>0){
   console.log(--n);
-whileLoop(100);
 }
 }
 
