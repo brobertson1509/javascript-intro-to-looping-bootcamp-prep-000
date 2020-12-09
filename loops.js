@@ -7,6 +7,10 @@ if(i=1) {console.log("I am 1 strange loop.")
   else {console.log("I am ${i} strange loops.")}
 }
 
+function whileLoop(n){
+  
+}
+
 let i = 0;
 
 function incrementVariable() {
