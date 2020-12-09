@@ -18,8 +18,8 @@ return "done";
 }
 
 function doWhileLoop(num) {
+  let num = 0;
   function incrementVariable() {
-let num = 0;
   num = num + 1;
   return num;
 }
