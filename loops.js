@@ -26,7 +26,7 @@ function doWhileLoop(num) {
 if(num === 0) {
 do {
   console.log("I run once regardless.");
-} while (incrementVariable() < num);
+}} while (incrementVariable() < num);
 else if (num === 10){
   console.log("I run once regardless." )}
 while (incrementVariable() < num);
