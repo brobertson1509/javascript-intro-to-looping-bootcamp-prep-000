@@ -19,13 +19,13 @@ return "done";
 
 function doWhileLoop(num) {
   function incrementVariable() {
+let num = 0;
   num = num + 1;
   return num;
 }
 
   do {
     console.log("I run once regardless.")
-    num = num + 1;
   } while
   (incrementVariable() < num);
 
